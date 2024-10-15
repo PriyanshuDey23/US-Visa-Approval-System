@@ -39,3 +39,8 @@ class ModelTrainerArtifact:
     metric_artifact:ClassificationMetricArtifact
 
 
+@dataclass
+class ModelEvaluationArtifact:
+    is_model_accepted: bool 
+
+
